@@ -1,0 +1,94 @@
+.outer-container {
+    background-color: #b8d5f3;
+    padding: 3px;
+    height:100vh;
+  }
+.auth-container {
+    display: flex;
+    max-width: 800px;
+    margin: 5rem auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .auth-content h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  
+  .input-group label {
+    color: #555;
+    margin-right: 85%;
+    padding-bottom: 10rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  Input {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .error-message {
+    color: #ff4444;
+    margin-bottom: 20px;
+  }
+  
+  Button {
+    width: 90%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  Button:hover {
+    background-color: #0056b3;
+  }
+  
+  .signup-link {
+    text-align: center;
+    color: #777;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .auth-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .auth-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
